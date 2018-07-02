@@ -1,0 +1,69 @@
+# Sunshine-LinuxMint
+# GRUB2 theme for LinuxMint
+# Made by SebastJava <sebastjava@hotmail.ca> 2018
+
+# GENERAL_SETTINGS
+# Terminal color defined there: /etc/grub.d/40_custom
+# Don't forget: sudo update-grub
+title-font: "Unifont Regular 16"
+title-text: ""
+desktop-image: "sunshine-background-CC0.png"
+terminal-box: "terminal-box_*.png"
+terminal-font: "Unifont Regular 16"
+message-font: "Unifont Regular 16"
+
+# PROGRESS_BAR
++ progress_bar {
+	id="__timeout__"
+	left=0
+	width=100%
+	top=0
+	height=32
+	show_text=true
+	font="Ubuntu Condensed Regular 21"
+	text_color="white"
+	text="@TIMEOUT_NOTIFICATION_MIDDLE@"
+	bar_style="progress_frame_*.png"
+	highlight_style="progress_highlight_*.png"
+}
+# BOOT_MENU (optimised for GRUB_GFXMODE=800x600)
++ boot_menu {
+	left=0 width=100%
+	
+	height=100%-278 # 600-278 = 322 [ok!]
+	# margintop + marginbottom = 2x139 = 278
+	top=139 # = marginbottom = helpmenu + 32 = 139
+
+	menu_pixmap_style="menu_frame_*.png"
+
+	item_font="Ubuntu Condensed Regular 21"
+	item_color="black"
+	item_padding=0
+	item_height=32
+	item_spacing=0
+	
+	selected_item_font="Ubuntu Condensed Regular 21"
+	selected_item_color="black"
+	selected_item_pixmap_style="highlight_*.png"
+
+	icon_width=0
+	item_icon_space=32
+	
+	scrollbar_thumb="scrollbar_thumb_*.png"
+	scrollbar_frame="scrollbar_frame_*.png"
+	scrollbar_width=16
+}
+# HELPMENU on bottom left (252x104, padding 2)
++ image {
+	top=100%-106 left=30 width=252 height=104
+	file="helpmenu-en.png"
+}
+# LOGO on bottom right
++ image {
+	top=100%-91
+	# margin 16 (height 76 - padding 1 + margin 16 = 91)
+	left=100%-359
+	# margin 32 (width 327 + margin 32 = 359)
+	width=327 height=76
+	file="LinuxMint_Logo-flat-02.png"
+}
