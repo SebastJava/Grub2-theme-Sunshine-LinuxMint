@@ -14,3 +14,9 @@ It is carefully designed to be compatible with, hopefully, all computer screens.
 4. Next, you need to change your **/etc/defaut/grub** file. Open this file as administrator. Find the line that starts with: `#GRUB_THEME=`. Change it to: `GRUB_THEME=/boot/grub/themes/Sunshine-LinuxMint/theme.txt`. Don't forget to remove the `#` sign.
 5. Open your terminal and run this command: `sudo update-grub`. If things are OK, you should get this message, among others: `Found theme : /boot/grub/themes/Sunshine-LinuxMint/theme.txt`
 6. Restart your computer and take a look at your new Grub menu.
+
+### Optional
+There is also a matching screen background for LightDM greeter, your login screen where you pick which user account and session type to use.
+1. Open `/usr/share/backgrounds/` as administrator.
+2. In this folder, add this file: `/sources/Sunshine-background/Sunshine-LinuxMint-login.png`.
+3. Open your LightDM greeter (or another greeter?) preferences and select your new background image. 
