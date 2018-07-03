@@ -1,11 +1,12 @@
 # Sunshine-LinuxMint
-A simple Grub2 theme for Linux Mint. Designed to be compatible with all screens.
+**A simple Grub2 theme for Linux Mint. Designed to look best on Grub2 screen resolutions ranging from 640x480 to 1024x768.**
+
+Please take note that Grub2 screen resolutions are usually lower than your preferred, actual screen resolution. And they are usually in 4:3 format rather than 16:9. This Grub2 theme was designed with these resolution constraints in mind. So, for example, you might be reading this on a beautiful 1920x1080 HD screen, but when you start your computer, the menu that lets you choose which system to start with and other options, called the Grub2 menu, is usually of lower resolution, like 1024x768 or even lower. So this Grub2 theme could be a nice enhancement that looks great on your computer.
 
 ![Default view](preview/Preview_800x600.png)
 
-### Description
-Sunshine-LinuxMint is a Grub2 theme. It is a visual enhancement to your actual boot menu, where you select your operating system when you start your computer.
-It is carefully designed to look good on, hopefully, all computer screens. Usually, the screen resolutions that are available for your Grub are **lower** than your actual, preferred screen resolution. And they are usually in **4:3 format** rather than 16:9. This Grub2 theme was designed with these resolution constraints in mind. It works with different screen resolutions, starting from 640x480 and going up to 1024x768 or higher. The image above is a preview of the 800x600 Grub screen resolution (GRUB_GFXMODE=800x600). Take a look at the **preview** folder to get a preview of other screen resolutions. It may seem to be low and outdated but remember: grub screen resolutions are usually lower.
+### Responsive Design (sort of)
+I doubt we can have one theme that fits all different screen resolutions. There aren't many "Responsive Design" features on Grub2. Not yet. Here, i just tried to play with relative + absolute unit combinations to get a design that is flexible enough to look good on Grub2 screens ranging from 640x480 to 1024x768 resolutions. Also, we can't specify different font sizes for different screen sizes. So i selected a font size big enough to fill 100% of the smallest screen width: 640x480. Then, the Grub2 menu is aligned to the left of the screen, and the right side is decorated with this sunshine picture. On smaller screens, it overlaps and still looks good. Pictures are better than words here, just take a look at my different previews for different screen resolutions: https://github.com/SebastJava/Grub2-theme-Sunshine-LinuxMint/tree/master/preview
 
 ### Installation
 1. Click on **"Clone or download"**, this green button on the right side. There, select **"Download ZIP"**.
