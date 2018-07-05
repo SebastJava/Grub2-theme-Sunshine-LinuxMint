@@ -24,5 +24,5 @@ This theme being on the lower end of screen resolutions, it will **certainly** f
 ### Optional
 There is also a matching screen background for LightDM greeter, your login screen where you pick which user account and session type to use.
 1. Open `/usr/share/backgrounds/` as administrator.
-2. In this folder, add this file: `/sources/Sunshine-background/Sunshine-LinuxMint-login.png`.
+2. In this folder, add this file: https://github.com/SebastJava/Grub2-theme-Sunshine-LinuxMint/blob/master/Sunshine-LinuxMint-login.png
 3. Open your LightDM greeter (or another greeter?) preferences and select your new background image. 
