@@ -1,6 +1,7 @@
 # Sunshine-LinuxMint
 **A simple Grub2 theme for Linux Mint. Designed to look best on Grub2 screen resolutions ranging from 640x480 to 1024x768.**
 
+UNDER REVISION... Please come back around 2018-07-13...
 Please take note that Grub2 screen resolutions are usually lower than your preferred, actual screen resolution. And they are usually in 4:3 format rather than 16:9. This Grub2 theme was designed with these resolution constraints in mind. So, for example, you might be reading this on a beautiful 1920x1080 HD screen, but when you start your computer, the menu that lets you choose which system to start with and other options, called the Grub2 menu, is usually of lower resolution, like 1024x768 or even lower. So this Grub2 theme could be a nice enhancement that looks great on your computer.
 
 ![Default view](preview/Preview_800x600.png)
