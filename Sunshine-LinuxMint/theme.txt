@@ -26,7 +26,7 @@ message-font: "Unifont Regular 16"
 	bar_style="progress_frame_*.png"
 	highlight_style="progress_highlight_*.png"
 }
-# BOOT_MENU (optimised for GRUB_GFXMODE=800x600)
+# BOOT_MENU (optimised for GRUB_GFXMODE ranging from 640x480 to 1024x768 resolution)
 + boot_menu {
 	left=0 width=100%
 	
