@@ -28,6 +28,7 @@ Entirely select all the lines and replace them with these:
     GRUB_THEME=/boot/grub/themes/Sunshine-LinuxMint/theme.txt
 ```
 Don't forget to uncomment those lines: remove the "#" at the beginning, except for `#GRUB_BACKGROUND=`, as displayed.
+
 5. Open your terminal and run this command: `sudo update-grub`. If things are OK, you should get this message, among others: `Found theme : /boot/grub/themes/Sunshine-LinuxMint/theme.txt`
 6. Restart your computer and take a look at your new Grub menu...
 
