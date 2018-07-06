@@ -20,7 +20,7 @@ Also, to make sure the text does not look small on higher resolution screens, i 
     GRUB_BACKGROUND
     GRUB_THEME
 ```
-Entirely select all the lines and replace them with these:
+Entirely select all the lines and replace them with this group of lines:
 ```
     GRUB_GFXMODE=1024x768,800x600,640x480,auto
     GRUB_GFXPAYLOAD_LINUX=1024x768,800x600,640x480,auto
