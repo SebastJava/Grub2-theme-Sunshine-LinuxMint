@@ -15,17 +15,17 @@ Also, to make sure the text does not look small on higher resolution screens, i 
 3. Copy this folder in `/boot/grub/themes`. To do so, you could type this in your terminal: `sudo cp -R /path_to_Sunshine-LinuxMint_folder_to_copy/ /boot/grub/themes`. Alternatively, you could just right-click on `/boot/grub/themes` folder to **open it as administrator** and then just drag and drop your **Sunshine-LinuxMint** folder in there. You may need to first create this **themes** folder if it's not already there.
 4. Next, you need to change your **/etc/default/grub** file. Open this file as administrator. Find the group of one to four lines containing some or all of these:
 ```
-GRUB_GFXMODE
-GRUB_GFXPAYLOAD_LINUX
-GRUB_BACKGROUND
-GRUB_THEME
+    GRUB_GFXMODE
+    GRUB_GFXPAYLOAD_LINUX
+    GRUB_BACKGROUND
+    GRUB_THEME
 ```
 Entirely select all the lines and replace them with these:
 ```
-GRUB_GFXMODE=1024x768,800x600,640x480,auto
-GRUB_GFXPAYLOAD_LINUX=1024x768,800x600,640x480,auto
-#GRUB_BACKGROUND=
-GRUB_THEME=/boot/grub/themes/Sunshine-LinuxMint/theme.txt
+    GRUB_GFXMODE=1024x768,800x600,640x480,auto
+    GRUB_GFXPAYLOAD_LINUX=1024x768,800x600,640x480,auto
+    #GRUB_BACKGROUND=
+    GRUB_THEME=/boot/grub/themes/Sunshine-LinuxMint/theme.txt
 ```
 Don't forget to uncomment those lines: remove the "#" at the beginning, except for `#GRUB_BACKGROUND=`, as displayed.
 5. Open your terminal and run this command: `sudo update-grub`. If things are OK, you should get this message, among others: `Found theme : /boot/grub/themes/Sunshine-LinuxMint/theme.txt`
