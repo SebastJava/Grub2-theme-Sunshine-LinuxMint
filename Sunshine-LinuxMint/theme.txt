@@ -28,7 +28,7 @@ message-font: "Unifont Regular 16"
 }
 # BOOT_MENU (optimised for GRUB_GFXMODE ranging from 640x480 to 1024x768 resolution)
 + boot_menu {
-	left=0 width=100%
+	left=0 width=100%-32
 	
 	height=100%-278 # 600-278 = 322 [ok!]
 	# margintop + marginbottom = 2x139 = 278
