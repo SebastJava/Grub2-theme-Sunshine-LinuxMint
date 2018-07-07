@@ -9,6 +9,7 @@ Alternatively, we could build another theme where the boot menu would use full w
 ...}
 ```  
 In other words, the left margin is equal to (100%-640)/2
+
 So the left margin is equal to half of the extra space around a menu of fixed 640 pixels width.
 
 **Examples:**
