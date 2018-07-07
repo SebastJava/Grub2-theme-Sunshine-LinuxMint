@@ -21,4 +21,5 @@ where screen-width = 1024 || left margin=(100%-640)/2 || (1024-640)/2=192 || OR 
 
 That is for the left margin.
 And what are the measurements for the right margin? Just the same.
+
 So the boot menu is always centered.
