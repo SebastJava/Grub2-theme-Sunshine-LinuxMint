@@ -1,6 +1,5 @@
 # Sunshine-LinuxMint
-**Grub2 theme for Linux Mint.**
-One size fits all: Grub2 screen resolutions ranging from 640x480 to 1024x768 and higher.
+**Boot screen (Grub2) theme for Linux Mint.** One size fits all.
 
 ![Default view](preview/Preview_800x600.png)
 
