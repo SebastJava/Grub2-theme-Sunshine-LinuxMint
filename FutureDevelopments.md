@@ -1,5 +1,5 @@
 # Future developments
-This Grub theme has a full (100%) width boot menu. On the smallest screen, the one set at 640x480 resolution, the items text will almost fill this full width. But on larger screens this text will simply hold the left part of the screen. It looks good with the carefully chosen background image, which can be overlapped or not, depending on screen resolutions.
+This Sunshine-LinuxMint Grub2 theme has a full (100%) width boot menu. On the smallest screen, the one set at 640x480 resolution, the items text will almost fill this full width. But on larger screens this text will simply hold the left part of the screen. It looks good with the carefully chosen background image, which can be overlapped or not, depending on screen resolutions.
 
 Alternatively, we could build another theme where the boot menu would use full width on small screens, and be **centered** on larger screens. This could be achieved with a clever combination of absolute and relative units:
 ```
