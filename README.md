@@ -11,7 +11,7 @@ Also, to make sure the text does not look small on higher resolution screens, i 
 ### Installation
 1. Click on **"Clone or download"**, this green button on the right side of this GitHub page. There, select **"Download ZIP"**.
 2. Open this **Grub2-theme-Sunshine-LinuxMint.ZIP.** Select the **Sunshine-LinuxMint** folder inside this ZIP. Extract this folder.
-3. Copy this folder in `/boot/grub/themes`: right-click on `/boot/grub/themes` folder to **open it as administrator** (or super-user or root) and then just drag and drop your **Sunshine-LinuxMint** folder in there. You may need to first create this **themes** folder if it's not already there.
+3. Right-click on `/boot/grub/themes` folder to **open it as administrator** (or super-user or root) and then just drag and drop your **Sunshine-LinuxMint** folder in there. You may need to first create this **themes** folder if it's not already there.
 4. Next, you need to change your `/etc/default/grub` file. Open this file as administrator. Find the group of one to four lines containing some or all of these:
 ```
     GRUB_GFXMODE
