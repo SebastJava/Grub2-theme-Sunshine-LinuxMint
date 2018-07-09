@@ -20,7 +20,7 @@ message-font: "Unifont Regular 16"
 	top=0
 	height=32
 	show_text=true
-	font="Ubuntu Condensed Regular 21"
+	font="Ubuntu Condensed Regular 20"
 	text_color="white"
 	text="@TIMEOUT_NOTIFICATION_MIDDLE@"
 	bar_style="progress_frame_*.png"
@@ -36,13 +36,13 @@ message-font: "Unifont Regular 16"
 
 	menu_pixmap_style="menu_frame_*.png"
 
-	item_font="Ubuntu Condensed Regular 21"
+	item_font="Ubuntu Condensed Regular 20"
 	item_color="black"
 	item_padding=0
 	item_height=32
 	item_spacing=0
 	
-	selected_item_font="Ubuntu Condensed Regular 21"
+	selected_item_font="Ubuntu Condensed Regular 20"
 	selected_item_color="black"
 	selected_item_pixmap_style="highlight_*.png"
 
