@@ -58,12 +58,12 @@ message-font: "Unifont Regular 16"
 	top=100%-106 left=30 width=252 height=104
 	file="helpmenu-en.png"
 }
-# LOGO on bottom right
+# LOGO on bottom right (253x76, padding 1)
 + image {
 	top=100%-91
 	# margin 16 (height 76 - padding 1 + margin 16 = 91)
-	left=100%-359
-	# margin 32 (width 327 + margin 32 = 359)
-	width=327 height=76
-	file="LinuxMint_Logo-flat-02.png"
+	left=100%-284
+	# margin 32 (width 253 - padding 1 + margin 32 = 284)
+	width=253 height=76
+	file="LinuxMint_Logo-flat-03.png"
 }
