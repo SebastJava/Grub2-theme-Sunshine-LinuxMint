@@ -8,6 +8,8 @@ I tried to make a theme that fits all different screen resolutions. We call this
 
 Also, to make sure the text does not look small on higher resolution screens, i selected a font size that fills 100% of the smallest screen width. On higher resolutions, the boot menu is aligned to the left of the screen, and the right side is decorated with this sunshine picture. On smaller screens, it overlaps and still looks good. Pictures are better than words here, just take a look at my different previews from different screen resolutions: https://github.com/SebastJava/Grub2-theme-Sunshine-LinuxMint/blob/master/Preview.md
 
+**Note:** To be compatible with all computers, this theme will use screen resolutions of 4:3 format, such as 1024:768 or 640:480. This is only for the Grub screen, before the system is started. But most screens are of 16:9 format, so all the images are horizontally stretched by the Grub screen. That's why the Linux Mint logo and some other elements are horizontally condensed; to compensate the Grub screen stretching. So, if you look at the individual files here, some may look weird. But they will look fine on the Grub screen, just like they do on the preview. Short story: everything should be OK, everywhere.
+
 ### Installation
 1. Click on **"Clone or download"**, this green button on the right side of this GitHub page. There, select **"Download ZIP"**.
 2. Open this **Grub2-theme-Sunshine-LinuxMint.ZIP.** Select the **Sunshine-LinuxMint** folder inside this ZIP. Extract (uncompress) this folder.
