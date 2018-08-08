@@ -1,4 +1,8 @@
 #!/bin/bash
+# MIT License
+# Copyright (c) 2018 Sébastien Bouchard
+# alias SebastJava <sebastjava@hotmail.ca>
+
 echo
 echo "This installer only works with Linux Mint, Ubuntu, and Debian distributions. These things will be automatically checked before installation."
 echo

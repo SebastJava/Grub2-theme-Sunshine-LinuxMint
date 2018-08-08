@@ -1,6 +1,7 @@
 #!/bin/bash
-# author: SebastJava <sebastjava@hotmail.ca>
-# license: MIT
+# MIT License
+# Copyright (c) 2018 Sébastien Bouchard
+# alias SebastJava <sebastjava@hotmail.ca>
 
 echo # Blank line.
 
