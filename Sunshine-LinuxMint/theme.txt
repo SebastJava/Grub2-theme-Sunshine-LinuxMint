@@ -1,6 +1,9 @@
 # Sunshine-LinuxMint
 # GRUB2 theme for LinuxMint
-# Made by SebastJava <sebastjava@hotmail.ca> 2018
+
+# MIT License
+# Copyright (c) 2018 Sébastien Bouchard
+# alias SebastJava <sebastjava@hotmail.ca>
 
 # GENERAL_SETTINGS
 # Terminal color defined there: /etc/grub.d/40_custom
